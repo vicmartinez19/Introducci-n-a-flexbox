@@ -1,5 +1,6 @@
 body{
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .contenedor {
@@ -26,3 +27,5 @@ body{
 .caja-2 { background-color: #0d00ff; }
 .caja-3 { background-color: #26ff00; }
 .caja-4 { background-color: #000000; }
+
+
