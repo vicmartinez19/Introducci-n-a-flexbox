@@ -29,3 +29,38 @@ body{
 .caja-4 { background-color: #000000; }
 
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.romanesco-regular {
+  font-family: "Romanesco", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.starbucks-nav {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 15px 40px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.nav-left, .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 30px; 
+}
+
+.menu-list {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
