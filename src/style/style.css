@@ -1,3 +1,28 @@
 body{
     background-color: aqua;
 }
+
+.contenedor {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f0f0f0;
+    height: 300px;
+    border: 2px dashed #ccc;
+}
+
+.caja {
+    width: 80px;
+    height: 80px;
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja-1 { background-color: #ff1900; }
+.caja-2 { background-color: #0d00ff; }
+.caja-3 { background-color: #26ff00; }
+.caja-4 { background-color: #000000; }
