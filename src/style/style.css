@@ -125,4 +125,12 @@ button {
     height: auto;
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    background: #f7f7f7;
+}
+
+
 
