@@ -64,3 +64,65 @@ body{
     letter-spacing: 1px;
 }
 
+
+.btn-login {
+    padding: 7px 18px;
+    border: 1px solid black;
+    background: white;
+    border-radius: 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-join {
+    padding: 7px 18px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 450px;
+    margin-bottom: 30px;
+}
+
+.reverse {
+    flex-direction: row-reverse; 
+}
+
+.content-box, .image-box {
+    flex: 1; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    text-align: center;
+}
+
+.green-section { background-color: #006241; color: white; }
+.pink-section { background-color: #d4e9e2; color: #1e3932; }
+
+button {
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.btn-outline { border: 1px solid black; background: none; }
+.btn-dark { background-color: black; color: white; border: none; }
+.btn-outline-white { border: 1px solid white; background: none; color: white; }
+
+.image-box img {
+    max-width: 80%;
+    height: auto;
+}
+
+
